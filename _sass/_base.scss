@@ -56,7 +56,7 @@ code {
 
 pre {
   font-style: Hack, Menlo, Meslo, Consolas, Monaco, "Andale Mono", monospace;
-  background: #f9f9f9;
+  background: rgb(244, 246, 248);
   color: black;
   border: none;
   direction: ltr;
@@ -81,23 +81,3 @@ pre {
   -ms-hyphens: none;
   hyphens: none;
 }
-
-// code:before {
-//   display: block;
-//   position: absolute;
-//   top: 0;
-//   left: 15px;
-//   background: rgba(0,0,0,0.1);
-//   font-size: 0.625em;
-//   text-transform: uppercase;
-//   padding: 0.5em 1em;
-//   border-bottom-right-radius: 0.5em;
-// }
-//
-// code[data-lang*="javascript"]:before {
-//   content: "JavaScript";
-// }
-//
-// code[data-lang*="ruby"]:before {
-//   content: "Ruby";
-// }

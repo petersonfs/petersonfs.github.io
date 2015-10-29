@@ -13,6 +13,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://petersonfs.me" # the base hostname & protocol for your site
 twitter_username: petersonfs
 github_username:  petersonfs
-
-# Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
