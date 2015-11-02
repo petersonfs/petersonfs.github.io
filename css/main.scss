@@ -3,12 +3,12 @@
 ---
 @charset "utf-8";
 
-$base-font-family: 'proxima-nova', "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: 'freight-text-pro', sans-serif;
 $base-font-size:   1.8em;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.7;
-$text-color: rgba(0, 0, 0, 0.8);
+$base-line-height: 1.9;
+$text-color: rgba(46, 48, 58, 0.96);
 $color-ateliware: #d10911;
 $color-twitter: #55acee;
 $color-github: #333333;
@@ -20,7 +20,6 @@ $content-width: 800px;
   }
 }
 
-@import url(http://cdn.jsdelivr.net/font-hack/2.013/css/hack-extended.min.css);
 @import "bootstrap";
 @import "base";
 @import "layout";
