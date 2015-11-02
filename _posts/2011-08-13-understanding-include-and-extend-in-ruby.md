@@ -5,6 +5,7 @@ date: 2011-08-13 21:38:08 -0300
 categories: ruby
 permalink: understanding-include-and-extend-in-ruby
 author: Peterson Santos
+headline: "Checkout the article to understand how 'include' and 'extend' works in ruby"
 ---
 
 In Ruby has a couple of ways to combine the methods of two classes. Classes are collections of related methods and data members. Two classes can combine their methods using the include or extend statements. Both of these statements are specialized for a different purpose, the include add instance methods to your class, and extend add class methods. Look’s the example below:

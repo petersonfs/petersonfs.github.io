@@ -5,6 +5,7 @@ date: 2011-08-25 21:38:08 -0300
 categories: ruby
 permalink: what-is-the-method-method-missing-in-ruby
 author: Peterson Santos
+headline: "Do you really know how 'method_missing' works? Check it out :)"
 ---
 
 If you began studying ruby and went looking for some gems, probably should have seen a method called “method_missing” and should probably not have understood anything (at least i didn’t understand the first time). So will a brief explanation of what it’s and how it can help in our implementation.

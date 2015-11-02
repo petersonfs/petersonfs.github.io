@@ -18,8 +18,8 @@ layout: default
         </p>
       </header>
 
-      <div class="post-content col-md-10 center-block" itemprop="articleBody">
-        {{ post.content | strip_html | truncatewords: 50 }}
+      <div class="post-headline col-md-10 center-block" itemprop="articleBody">
+        {{ post.headline }}
       </div>
     </article>
   {% endfor %}

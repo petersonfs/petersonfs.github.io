@@ -5,6 +5,7 @@ date: 2011-08-18 21:38:08 -0300
 categories: ruby
 permalink: ruby-wrapper-for-getclicky-api
 author: Peterson Santos
+headline: "A live show using the new gem to the Getclicky service"
 ---
 
 I participated in a project where it was necessary to connect to Getclicky API, so i decided to do a gem, and i’ll show you how it’s easy to use.

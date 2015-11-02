@@ -5,6 +5,7 @@ date: 2011-09-09 21:38:08 -0300
 categories: ruby
 permalink: using-redis-as-rails-cache-store
 author: Peterson Santos
+headline: "A simple walkthrough of how integrate redis to be the rails cache store  for your application"
 ---
 
 If you want to use redis as your cache store, i recommend you checkout the Redis Store, see the github repo:

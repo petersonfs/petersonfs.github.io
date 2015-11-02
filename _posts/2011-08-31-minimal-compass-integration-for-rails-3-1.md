@@ -5,6 +5,7 @@ date: 2011-08-31 21:38:08 -0300
 categories: ruby
 permalink: minimal-compass-integration-for-rails-3-1
 author: Peterson Santos
+headline: "A simple example of compass integration with rails 3.1"
 ---
 
 If you like to use the [compass](http://compass-style.org), and want integrate it with Rails 3.1 asset pipeline are necessary to make some settings:

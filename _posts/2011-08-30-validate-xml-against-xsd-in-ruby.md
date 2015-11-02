@@ -5,6 +5,7 @@ date: 2011-08-30 21:38:08 -0300
 categories: ruby
 permalink: validate-xml-against-xsd-in-ruby
 author: Peterson Santos
+headline: "Learn how to validate your XML against schema"
 ---
 
 I began this week to do a small project where one of its features is to validate a given xml against an schema. In the ruby ecosystem we have several options for working with xml, and i chose nokogiri, where he met my needs very well.
