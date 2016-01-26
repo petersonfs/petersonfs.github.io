@@ -1,7 +1,7 @@
 ---
 ---
 $base-color: #424242;
-$link-color: #df2050;
+$link-color: #872d50;
 $break: 48em;
 
 *,
@@ -20,7 +20,6 @@ body {
   line-height: 165%;
   color: $base-color;
   -webkit-font-smoothing: antialiased;
-
   background-color: #fff;
 }
 
@@ -30,8 +29,6 @@ body {
   min-height: 300px;
   margin: 0 auto;
 }
-
-* + * { margin-top: 1rem; }
 
 h1,
 h2,
@@ -128,11 +125,17 @@ header {
     margin: 0;
     text-transform: uppercase;
     letter-spacing: 2px;
+	float: left;
+	box-shadow: 0 2px $link-color;
   }
 
   h3,
-	h4,
-	nav { display: inline-block; }
+  h4,
+  nav { display: inline-block; }
+  
+  nav {
+  	float: right!important;
+  }
 
   a {
     margin-right: 6px;
