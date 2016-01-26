@@ -9,5 +9,5 @@ github_username:  petersonfs
 markdown: kramdown
 kramdown:
   input: GFM
-gems:
-  - octopress-autoprefixer
+# gems:
+#   - octopress-autoprefixer
