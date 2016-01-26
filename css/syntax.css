@@ -5,13 +5,12 @@
 
 .hljs {
   display: block;
-  background: white;
-  padding: 0.5em;
+  padding: 1em;
   color: #333333;
   overflow-x: auto;
-  -webkit-text-size-adjust: none;
 }
 
+/*
 .hljs-comment,
 .bash .hljs-shebang,
 .java .hljs-javadoc,
@@ -216,3 +215,4 @@
 .markdown .hljs-link_url {
   text-decoration: underline;
 }
+*/
