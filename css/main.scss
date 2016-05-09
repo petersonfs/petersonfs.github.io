@@ -1,5 +1,8 @@
 ---
 ---
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic,600,600italic);
+
 $base-color: #424242;
 $link-color: #872d50;
 $break: 48em;
@@ -14,10 +17,11 @@ body { height: 100%; }
 body {
   padding-right: 1em;
   padding-left: 1em;
-  font-family: "freight-text-pro", Georgia, "serif";
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
-  font-weight: normal;
-  line-height: 165%;
+  font-weight: 400;
+  line-height: 1.5;
+  word-wrap: break-word;
   color: $base-color;
   -webkit-font-smoothing: antialiased;
   background-color: #fff;
@@ -29,11 +33,6 @@ body {
   min-height: 300px;
   margin: 0 auto;
 }
-
-h1,
-h2,
-h3,
-h4 { font-family: "proxima-nova", "Helvetica", "sans-serif"; }
 
 h1 { font-size: 2rem;   }
 h2 { font-size: 1.7rem;	}
@@ -125,8 +124,8 @@ header {
     margin: 0;
     text-transform: uppercase;
     letter-spacing: 2px;
-	float: left;
-	box-shadow: 0 2px $link-color;
+    float: left;
+    box-shadow: 0 2px $link-color;
   }
 
   h3,

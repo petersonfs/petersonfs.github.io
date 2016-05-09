@@ -25,17 +25,17 @@ class Man
   extend Person
 end
 
-			# Class methods
+# Class methods
 Woman.walk
-			# => undefined method ‘walk’ for Woman:Class
+# => undefined method ‘walk’ for Woman:Class
 Man.walk
-			# => Walking...
+# => Walking...
 
-			# Instance methods
+# Instance methods
 Woman.new.walk
-			# => Walking...
+# => Walking...
 Man.new.walk
-			# => undefined method ‘walk’ for #
+# => undefined method ‘walk’ for #
 {% endhighlight %}
 
 ## Understanding
@@ -47,15 +47,15 @@ To help us Ruby already has some methods to work around the include:
 
 
 {% highlight ruby %}
-			# +include?+
-			# Returns true if a module was included in the class or one of yours ancestors
+# +include?+
+# Returns true if a module was included in the class or one of yours ancestors
 p Woman.include?(Person)
-			# => true
+# => true
 p Man.include?(Person)
-			# => false
+# => false
 
-			# +included+
-			# Included it's a callback that's called everytime you include a module
+# +included+
+# Included it's a callback that's called everytime you include a module
 module Person
   def walk
     puts "Walking..."
@@ -69,12 +69,12 @@ end
 class Children
   include Person
 end
-			# => Person included in Children
+# => Person included in Children
 
-			# +included_modules+
-			# Returns an array of modules included
+# +included_modules+
+# Returns an array of modules included
 p Children.included_modules
-			# => [Person, Kernel]
+# => [Person, Kernel]
 {% endhighlight %}
 
 #### Extend
@@ -98,8 +98,8 @@ end
 class Baby
   extend Person
 end
-			# => Person added to Baby
-			# => Person added to Baby
+# => Person added to Baby
+# => Person added to Baby
 {% endhighlight %}
 
 ### Conclusion
